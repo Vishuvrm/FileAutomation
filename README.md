@@ -1,5 +1,6 @@
 # FileAutomation
-This is the file automation project python files
+## This is the file automation GUI project written in python
+<h3>Purpose:</h3> The main purpose of this app is to search for the required files and merge their contents into a single file.<br><br>
 
 ![image](https://user-images.githubusercontent.com/50429258/160341639-817b0ec1-393a-4118-af62-02009adb561c.png)
 
@@ -26,4 +27,7 @@ As you can see, it could found 2 .txt files in F:\ having abc in them.
 ![image](https://user-images.githubusercontent.com/50429258/160343840-ea59c245-5b27-4db9-933c-820bf4be926a.png)
 
 - We can see that abc.txt was empty, that's why no content is shown.
-- abcd.txt had some content, which you can see in the abcd.txt portion of merged.txt file.
+- abcd.txt had some content, which you can see in the abcd.txt portion of merged.txt file. 
+
+### NOTE: The application generates the log files in the folder in  which the application is placed. You can see those log files to check for any rejected files or any other events if you think something unexpected has happened!
+### For each instance, the application generates a new log file in a dedicated folder, which the application takes care of by itself.
